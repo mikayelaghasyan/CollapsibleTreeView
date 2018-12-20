@@ -1,6 +1,6 @@
 # CollapsibleTreeView
 
-[![CI Status](https://img.shields.io/travis/Mikayel Aghasyan/CollapsibleTreeView.svg?style=flat)](https://travis-ci.org/Mikayel Aghasyan/CollapsibleTreeView)
+[![CI Status](https://img.shields.io/travis/mikayelaghasyan/CollapsibleTreeView.svg?style=flat)](https://travis-ci.org/mikayelaghasyan/CollapsibleTreeView)
 [![Version](https://img.shields.io/cocoapods/v/CollapsibleTreeView.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTreeView)
 [![License](https://img.shields.io/cocoapods/l/CollapsibleTreeView.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTreeView)
 [![Platform](https://img.shields.io/cocoapods/p/CollapsibleTreeView.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTreeView)
