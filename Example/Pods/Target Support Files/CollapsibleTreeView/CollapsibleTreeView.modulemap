@@ -1,0 +1,6 @@
+framework module CollapsibleTreeView {
+  umbrella header "CollapsibleTreeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

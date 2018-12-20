@@ -1,0 +1,6 @@
+framework module Pods_CollapsibleTreeView_Example {
+  umbrella header "Pods-CollapsibleTreeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

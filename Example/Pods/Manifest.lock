@@ -1,0 +1,16 @@
+PODS:
+  - CollapsibleTreeView (0.1.0)
+
+DEPENDENCIES:
+  - CollapsibleTreeView (from `../`)
+
+EXTERNAL SOURCES:
+  CollapsibleTreeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollapsibleTreeView: b7e15492179fc25430be99756e4cec14c892532b
+
+PODFILE CHECKSUM: 83e0d0ce329461bcf299dc71b3ba5882de022c0e
+
+COCOAPODS: 1.5.3

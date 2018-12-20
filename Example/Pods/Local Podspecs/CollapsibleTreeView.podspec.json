@@ -1,0 +1,22 @@
+{
+  "name": "CollapsibleTreeView",
+  "version": "0.1.0",
+  "summary": "A short description of CollapsibleTreeView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mikayel Aghasyan/CollapsibleTreeView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mikayel Aghasyan": "mikayel.aghasyan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mikayel Aghasyan/CollapsibleTreeView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CollapsibleTreeView/Classes/**/*"
+}
