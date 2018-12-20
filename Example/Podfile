@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CollapsibleTreeView_Example' do
+  pod 'CollapsibleTreeView', :path => '../'
+
+  target 'CollapsibleTreeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
