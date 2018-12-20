@@ -217,6 +217,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X996M9YRNJ;
 						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -515,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC02D3DA0D74CF695A706716 /* Pods-CollapsibleTreeView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = X996M9YRNJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -532,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE374D205574149C92347478 /* Pods-CollapsibleTreeView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = X996M9YRNJ;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
