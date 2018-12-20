@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Collapsible tree view.
+Collapsible tree view allows display of hierarchic data.
                        DESC
 
   s.homepage         = 'https://github.com/mikayelaghasyan/CollapsibleTreeView'
