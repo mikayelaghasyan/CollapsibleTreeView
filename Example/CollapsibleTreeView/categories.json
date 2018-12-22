@@ -1,0 +1,670 @@
+[
+  {
+    "id": "ca9d4349-3ae3-426d-bb05-ad05b8119bf4",
+    "name": "Women",
+    "subcategories": [
+      {
+        "id": "55c32859-e0d3-4939-9c8e-4fc6dadb3d98",
+        "name": "Clothing",
+        "subcategories": [
+          {
+            "id": "325e8f6a-7d4f-4bac-84c0-97512a4578bb",
+            "name": "Activewear",
+            "subcategories": [
+              {
+                "id": "19be9213-1c8c-4b6b-abf7-7884905c646c",
+                "name": "Leggings",
+                "subcategories": []
+              },
+              {
+                "id": "eade18b6-1ed8-4bae-a7e2-f5c1f5e5e35a",
+                "name": "Hoodies",
+                "subcategories": []
+              },
+              {
+                "id": "ffa7d11b-7a86-4c61-a8d9-3e2edd21ba58",
+                "name": "Tops",
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": "e9bfb962-8e18-4f3a-88ee-e205ec0c2df9",
+            "name": "All-in-Ones",
+            "subcategories": []
+          },
+          {
+            "id": "4dbea9cc-3a27-4b2b-b510-f547da30e96f",
+            "name": "Beachwear",
+            "subcategories": []
+          },
+          {
+            "id": "5796fd0c-d2fb-47b6-893f-7a471cf19b71",
+            "name": "Coats",
+            "subcategories": []
+          },
+          {
+            "id": "47d53f2d-9e7e-48cd-af5f-67472cf8369f",
+            "name": "Dresses",
+            "subcategories": []
+          },
+          {
+            "id": "89bb4c0a-86b1-4f36-828b-e835684d49a0",
+            "name": "Jackets",
+            "subcategories": []
+          },
+          {
+            "id": "de6f0e12-899d-4c72-b5e7-8de0dbc7a83c",
+            "name": "Jeans",
+            "subcategories": []
+          },
+          {
+            "id": "5f878a0d-94b4-4f30-a717-049c69a226f7",
+            "name": "Knitwear",
+            "subcategories": []
+          },
+          {
+            "id": "897259a9-24cd-4b25-bfd4-e10db6c40170",
+            "name": "Lingerie and Nightwear",
+            "subcategories": []
+          },
+          {
+            "id": "d8eba91c-cfe3-4f71-818e-8c9197c84618",
+            "name": "Shorts",
+            "subcategories": []
+          },
+          {
+            "id": "8033be1d-8936-43ea-8f9f-aac9d9dbd951",
+            "name": "Skirts",
+            "subcategories": []
+          },
+          {
+            "id": "a02e08c0-cf92-4591-bf2a-ee9ddb9dbdf8",
+            "name": "Suits",
+            "subcategories": []
+          },
+          {
+            "id": "d9b0314e-99ea-4b3c-8d06-33728f42b90e",
+            "name": "Tops",
+            "subcategories": []
+          },
+          {
+            "id": "4408867a-2a7b-4d52-acde-000e6f1b5ee1",
+            "name": "Trousers",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "8c71b03f-fe23-4057-88a5-540bb15c19bf",
+        "name": "Bags",
+        "subcategories": [
+          {
+            "id": "06d2489c-de8f-40d7-8e58-a1d99cae0b4f",
+            "name": "Backpacks",
+            "subcategories": []
+          },
+          {
+            "id": "7ff413d7-b3ff-4269-bc94-58b1097bebf8",
+            "name": "Bag Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "8ff6a7fc-7324-44e5-a754-54552e31bee3",
+            "name": "Beach Bags",
+            "subcategories": []
+          },
+          {
+            "id": "5183fcc4-b92d-4098-af6a-b8583a82b2e1",
+            "name": "Belt Bags",
+            "subcategories": []
+          },
+          {
+            "id": "398aa9a0-1afd-4210-b699-d9f859d3cfe3",
+            "name": "Box Bags",
+            "subcategories": []
+          },
+          {
+            "id": "4c36af31-ee18-466c-8145-384ec18a3559",
+            "name": "Bucket Bags",
+            "subcategories": []
+          },
+          {
+            "id": "2a22ed51-a5bd-4a9d-bda2-39f8618746f3",
+            "name": "Clutch Bags",
+            "subcategories": []
+          },
+          {
+            "id": "d252cc3d-ff77-44a3-8345-48c81b8e3c5e",
+            "name": "Cross-Body Bags",
+            "subcategories": []
+          },
+          {
+            "id": "0f1e9a96-62bf-466a-943e-17793e7fbd72",
+            "name": "Mini Bags",
+            "subcategories": []
+          },
+          {
+            "id": "e3e1525d-3da8-4f1c-aef5-77f493113866",
+            "name": "Shoulder Bags",
+            "subcategories": []
+          },
+          {
+            "id": "596e6d47-6d7f-4e05-b221-5434df215430",
+            "name": "Top Handle Bags",
+            "subcategories": []
+          },
+          {
+            "id": "a64e2d27-c679-4d96-ba51-b0ac240fd834",
+            "name": "Tote Bags",
+            "subcategories": []
+          },
+          {
+            "id": "ce1e5f37-07a9-4e2b-82d2-2c43bec464a4",
+            "name": "Travel Bags",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "bffa5185-ae90-49ba-9688-9afc1e65cabd",
+        "name": "Shoes",
+        "subcategories": [
+          {
+            "id": "3b6f2637-c991-4d21-adb2-a30399503b83",
+            "name": "Boots",
+            "subcategories": []
+          },
+          {
+            "id": "2f2967c9-6189-4a67-9d3b-6491bbf07660",
+            "name": "Flats",
+            "subcategories": []
+          },
+          {
+            "id": "ceec524b-3cf7-4522-a674-321e5e7cc5e9",
+            "name": "Heels",
+            "subcategories": []
+          },
+          {
+            "id": "dd11b12a-c7c9-4ede-b29e-28bc85ef87e8",
+            "name": "Sandals",
+            "subcategories": []
+          },
+          {
+            "id": "72a638a8-04ae-48ec-9759-4f569dabfb7b",
+            "name": "Slides",
+            "subcategories": []
+          },
+          {
+            "id": "01693688-0f5c-40a2-aabd-e65ec2812222",
+            "name": "Sneakers",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "22cbd20f-65a2-4a75-85a1-79743d68279a",
+        "name": "Fine Jewellery",
+        "subcategories": [
+          {
+            "id": "93e36fb3-379c-4877-9d0a-197ee05a57a6",
+            "name": "Fine Bracelets",
+            "subcategories": []
+          },
+          {
+            "id": "c63e9fe1-e1ec-4823-87c8-83cc8d2187a2",
+            "name": "Fine Ear Cuffs",
+            "subcategories": []
+          },
+          {
+            "id": "5f375d22-175d-4821-8306-78eca73837ec",
+            "name": "Fine Earrings",
+            "subcategories": []
+          },
+          {
+            "id": "2e7fab86-1da5-4bc5-acf2-3c25126fc306",
+            "name": "Fine Necklaces",
+            "subcategories": []
+          },
+          {
+            "id": "ce668bf0-fb06-438d-99ae-a6018884f69c",
+            "name": "Fine Rings",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "dd699e27-d100-47e1-9e48-4b69af8746da",
+        "name": "Fashion Jewellery",
+        "subcategories": [
+          {
+            "id": "754747b3-16a0-45ba-b8f8-d8f41f399607",
+            "name": "Fashion Bracelets",
+            "subcategories": []
+          },
+          {
+            "id": "8c327c66-31cd-4841-b4ff-9f66bc5b0ef2",
+            "name": "Brooches",
+            "subcategories": []
+          },
+          {
+            "id": "b75b903f-1afc-4d85-85aa-af211be6ef49",
+            "name": "Cuffs",
+            "subcategories": []
+          },
+          {
+            "id": "67c1ada2-dc35-46fd-9caa-d8d1028117ab",
+            "name": "Fashion Earrings",
+            "subcategories": []
+          },
+          {
+            "id": "1803a47c-d3aa-4184-a2cd-66343e0b7d6c",
+            "name": "Hair Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "39672861-506f-4ea0-9165-3f2490685a9a",
+            "name": "Fashion Necklaces",
+            "subcategories": []
+          },
+          {
+            "id": "158e6c86-5a25-4df7-aed6-f959c4122b50",
+            "name": "Fashion Rings",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "d767578f-a46d-490b-a5cd-58ce7ffeca98",
+        "name": "Accessories",
+        "subcategories": [
+          {
+            "id": "88f66044-1a98-4bfa-a133-cbca6bce1b93",
+            "name": "Active Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "2cc75bb5-3aa3-4d74-b743-af8449a8a142",
+            "name": "Belts",
+            "subcategories": []
+          },
+          {
+            "id": "c97cfb42-659e-4bec-8b92-37661cb7942a",
+            "name": "Card Holders",
+            "subcategories": []
+          },
+          {
+            "id": "59bdc85b-dba9-451e-8b36-8b4416bc1d30",
+            "name": "Cosmetic Cases",
+            "subcategories": []
+          },
+          {
+            "id": "646b0a15-0d36-4811-aa98-e724560c4221",
+            "name": "Glasses",
+            "subcategories": []
+          },
+          {
+            "id": "fb780ad5-fcc7-4db1-b7c6-2885cce846c4",
+            "name": "Gloves",
+            "subcategories": []
+          },
+          {
+            "id": "b5486b76-1520-44ce-8a50-f873d82eeaa7",
+            "name": "Hair Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "d26d01c8-5355-4015-a1f4-9dc2d8ce84e2",
+            "name": "Hats",
+            "subcategories": []
+          },
+          {
+            "id": "115569a3-d011-4b26-aeec-b6832218f5be",
+            "name": "Key Rings",
+            "subcategories": []
+          },
+          {
+            "id": "ce453bfe-b075-48ff-a52f-945c83a4ef32",
+            "name": "Scarves",
+            "subcategories": []
+          },
+          {
+            "id": "3f7d480d-2c33-4167-bf04-841e433d0984",
+            "name": "Ski Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "e7fac45d-cb95-443f-9324-a940d57f8e55",
+            "name": "Socks",
+            "subcategories": []
+          },
+          {
+            "id": "a66620ef-1a9b-48ee-bb91-465f71f115fa",
+            "name": "Sunglasses",
+            "subcategories": []
+          },
+          {
+            "id": "c622e65f-9f62-403f-b88c-ffe0ecd3c5ff",
+            "name": "Technology",
+            "subcategories": []
+          },
+          {
+            "id": "c449de9a-081d-4b53-bd0f-831f2f5d9ffd",
+            "name": "Travel Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "45bb99bb-4fd8-4a50-ad2d-997ea793b39f",
+            "name": "Umbrellas",
+            "subcategories": []
+          },
+          {
+            "id": "2eef7f82-3ea3-4a3d-bfdc-a4961c42f83e",
+            "name": "Wallets",
+            "subcategories": []
+          },
+          {
+            "id": "fd3f45d5-6db6-4659-a828-dd74f6b79467",
+            "name": "Watches",
+            "subcategories": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21ad2ef0-d685-460d-bc98-42a54dc96930",
+    "name": "Men",
+    "subcategories": [
+      {
+        "id": "037f3f64-629a-4566-8d80-2275b76a6695",
+        "name": "Clothing",
+        "subcategories": [
+          {
+            "id": "e2e0d1c0-5038-4312-a397-52790b2537ea",
+            "name": "Activewear",
+            "subcategories": []
+          },
+          {
+            "id": "fc9858d3-60a8-414a-85bc-ec56b293b479",
+            "name": "Blazers",
+            "subcategories": []
+          },
+          {
+            "id": "82b8139b-3f24-4fc8-910f-2bc9f46da253",
+            "name": "Casual Shirts",
+            "subcategories": []
+          },
+          {
+            "id": "9290fbaa-d890-47ce-9fd2-b0b00421712e",
+            "name": "Coats and Jackets",
+            "subcategories": []
+          },
+          {
+            "id": "8c419a5a-8053-47cf-8030-6ffba7947f56",
+            "name": "Formal Shirts",
+            "subcategories": []
+          },
+          {
+            "id": "86e447b4-1873-4ef4-b7f7-69e2dd44035c",
+            "name": "Jeans",
+            "subcategories": []
+          },
+          {
+            "id": "67fd54ad-9e1d-4391-9f1a-78153842fedf",
+            "name": "Knitwear",
+            "subcategories": []
+          },
+          {
+            "id": "e695186d-bf75-43dd-8bfe-df7f5492e102",
+            "name": "Polo Shirts",
+            "subcategories": []
+          },
+          {
+            "id": "ac39d455-cefe-49a1-9f5b-f52e0e345b43",
+            "name": "Shorts",
+            "subcategories": []
+          },
+          {
+            "id": "1dc7ffa4-2db9-43ac-a20f-3f3b745a3462",
+            "name": "Suits",
+            "subcategories": []
+          },
+          {
+            "id": "2a27749e-d78f-40cb-ac07-68153112e88d",
+            "name": "Trousers",
+            "subcategories": []
+          },
+          {
+            "id": "f135da13-bcc2-4671-8230-c1659a67827f",
+            "name": "T-Shirts",
+            "subcategories": []
+          },
+          {
+            "id": "3be2121e-3103-4f0c-8608-297f5a778d8a",
+            "name": "Sweats",
+            "subcategories": []
+          },
+          {
+            "id": "dc01a994-7fab-4079-9c98-9f5bc110194c",
+            "name": "Underwear and Nightwear",
+            "subcategories": []
+          },
+          {
+            "id": "094f55fa-9567-4cad-9db6-2d4758cdb4d3",
+            "name": "Swimwear",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "b407904e-668d-4c8c-9274-e5cbfb727f7d",
+        "name": "Bags",
+        "subcategories": [
+          {
+            "id": "d46d84e2-9b1b-412b-bb20-470e9b587ff1",
+            "name": "Backpacks",
+            "subcategories": []
+          },
+          {
+            "id": "51f43c77-a970-4450-a382-ed4f7228c0dc",
+            "name": "Briefcases",
+            "subcategories": []
+          },
+          {
+            "id": "60e249b3-5c68-4b58-b9b1-f27b94eef299",
+            "name": "Hand-Held Bags",
+            "subcategories": []
+          },
+          {
+            "id": "8bf33412-61f2-4a01-bb1d-39da7ecb070e",
+            "name": "Cross-Body Bags",
+            "subcategories": []
+          },
+          {
+            "id": "56698134-21b7-4c00-a975-46709c8a0fe7",
+            "name": "Tote Bags",
+            "subcategories": []
+          },
+          {
+            "id": "e932d39d-804c-4058-a50f-b253223e85df",
+            "name": "Travel Bags",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "1c22a8c3-2eb9-41a4-94fb-77312e1b8fb4",
+        "name": "Shoes",
+        "subcategories": [
+          {
+            "id": "a747e1f9-a54a-4787-80fd-a6c121f49fe1",
+            "name": "Boots",
+            "subcategories": []
+          },
+          {
+            "id": "1912c68c-4def-4116-8b53-d1d0a6db223e",
+            "name": "Brogues",
+            "subcategories": []
+          },
+          {
+            "id": "aa005606-d987-4667-9882-8b197c2e8851",
+            "name": "Derby Shoes",
+            "subcategories": []
+          },
+          {
+            "id": "2a5e9cf9-1d15-4f59-8e37-e542376adfc4",
+            "name": "Dress Shoes",
+            "subcategories": []
+          },
+          {
+            "id": "f2296795-ee5c-4c74-adbb-de6ab46868ff",
+            "name": "Driving Shoes",
+            "subcategories": []
+          },
+          {
+            "id": "b95f5e78-b7c2-4acc-8afc-4db40b5b6797",
+            "name": "Espadrilles",
+            "subcategories": []
+          },
+          {
+            "id": "947d5358-6136-4c32-bc65-13355ef4e576",
+            "name": "Lace-Up Shoes",
+            "subcategories": []
+          },
+          {
+            "id": "97b42cf7-cce7-4512-8b77-1262db0cea8f",
+            "name": "Loafers",
+            "subcategories": []
+          },
+          {
+            "id": "84179c92-0ac0-42e9-94c6-6bb0dfbf0c82",
+            "name": "Monk-Strap Shoes",
+            "subcategories": []
+          },
+          {
+            "id": "ffcb60d3-4b31-45cd-a0d2-6dad993d29f4",
+            "name": "Sandals",
+            "subcategories": []
+          },
+          {
+            "id": "0eec360e-975d-4632-8280-8d1bcf60915d",
+            "name": "Slides",
+            "subcategories": []
+          },
+          {
+            "id": "67c830eb-3959-43fc-a2a8-c3b8f47c920b",
+            "name": "Trainers",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "id": "c5d3d2b8-fb60-4075-82f7-c5eb587bea40",
+        "name": "Accessories",
+        "subcategories": [
+          {
+            "id": "e9d6eacc-ed75-4c8d-a097-5ac86542c043",
+            "name": "Active Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "561e6a25-7628-43d4-8bb2-77ed0a864ef3",
+            "name": "Belts",
+            "subcategories": []
+          },
+          {
+            "id": "fbea0a3d-7260-4738-8d1d-cc61f20d113f",
+            "name": "Caps",
+            "subcategories": []
+          },
+          {
+            "id": "e08a5b99-c227-4555-bd7d-82d0bd2fcc20",
+            "name": "Cufflinks, Pins and Clips",
+            "subcategories": []
+          },
+          {
+            "id": "8becbec6-3368-47fd-bdaf-6a495c5b6044",
+            "name": "Glasses",
+            "subcategories": []
+          },
+          {
+            "id": "cfc9285c-cd60-4fde-9497-0b1a7a5245c9",
+            "name": "Gloves",
+            "subcategories": []
+          },
+          {
+            "id": "a06f9d58-049f-411f-9887-806420e57823",
+            "name": "Hats",
+            "subcategories": []
+          },
+          {
+            "id": "e8dc690a-8f67-4020-9376-11baffadf26c",
+            "name": "Jewellery",
+            "subcategories": []
+          },
+          {
+            "id": "fb1cf73c-9547-48ab-ac84-a2ca77e1923c",
+            "name": "Key Rings",
+            "subcategories": []
+          },
+          {
+            "id": "90589643-d29b-4184-9e0e-173a48d8f66a",
+            "name": "Pocket Squares",
+            "subcategories": []
+          },
+          {
+            "id": "7ce4334d-f712-4e85-bbff-861f816af33b",
+            "name": "Scarves",
+            "subcategories": []
+          },
+          {
+            "id": "6886a153-9746-4a30-bc4f-420d2e7751e8",
+            "name": "Socks",
+            "subcategories": []
+          },
+          {
+            "id": "dfcf3b3a-45c0-4596-9252-26dcca82f42c",
+            "name": "Sunglasses",
+            "subcategories": []
+          },
+          {
+            "id": "a3ea95aa-6800-4435-8dcf-d1e6979eb784",
+            "name": "Technology",
+            "subcategories": []
+          },
+          {
+            "id": "857c4939-ec02-41bc-95f8-fb63d604db2b",
+            "name": "Ties",
+            "subcategories": []
+          },
+          {
+            "id": "9c8ca785-203f-470c-8a4f-53c1c22347c0",
+            "name": "Travel Accessories",
+            "subcategories": []
+          },
+          {
+            "id": "1bc34b5f-30fd-4615-80a2-c77cf7e580d5",
+            "name": "Umbrellas",
+            "subcategories": []
+          },
+          {
+            "id": "b2cb81c0-ed43-4d21-9820-91bc1fbee6d6",
+            "name": "Wallets",
+            "subcategories": []
+          },
+          {
+            "id": "8538fa6c-4cf3-491d-b945-40f4fbb166db",
+            "name": "Wash Bags",
+            "subcategories": []
+          },
+          {
+            "id": "a1fb2ee8-6309-4ab0-8417-64c3bee39a7d",
+            "name": "Watches",
+            "subcategories": []
+          }
+        ]
+      }
+    ]
+  }
+]

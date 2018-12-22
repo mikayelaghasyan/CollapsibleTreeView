@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		02B701A22184E223C531A7A135FFE084 /* Pods-CollapsibleTreeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD64BFF8B32EA0E48368A5E22EE0DF /* Pods-CollapsibleTreeView_Example-dummy.m */; };
-		0643F5EBF126FAC7334243D32FD175E7 /* CollapsibleTreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0758CADFF90CB7224269EEFD321BFC6 /* CollapsibleTreeView-dummy.m */; };
 		065D8340262FCD8AED0380D3D714C66E /* Pods-CollapsibleTreeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5930C5D6AA537A9ECF11F6F884E257BB /* Pods-CollapsibleTreeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321D664236B014AB0085B986AB1A0124 /* Pods-CollapsibleTreeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DD2D6A892760AAF12F23F359D313F3 /* Pods-CollapsibleTreeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		347A1CF79E0FD7EB95CB471C99A61529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		406DEF77B45D7A185321DEBCCB4C68BB /* TreeIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC1EF2438A019D5D14BE5C49E27FC8 /* TreeIndexable.swift */; };
+		5EED347756CB626977577A165AC5ED15 /* CollapsableTreeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F97982F3FCB8D6D5724045709238F /* CollapsableTreeViewCell.swift */; };
 		612AC3775FE4C20466AD280D8D61AFFF /* Pods-CollapsibleTreeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD303DD20CF310341AF49FDE78733188 /* Pods-CollapsibleTreeView_Tests-dummy.m */; };
 		7330FDFA91C0184E51860B7F1187DBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		C605FB87B2693B561F5D19514513D79D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		DED583403444A30AD5A7A94EDDFFA2C2 /* CollapsibleTreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B542868EB0E5341AB4D26BA374845025 /* CollapsibleTreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C9CF1EA17084E8526E48C790E386DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A0701582B990EC6AFA1CDD4B4E351 /* ReplaceMe.swift */; };
+		84FD520C91E4557DF2500B15C9E07D10 /* CollapsibleTreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA9C1854B13149276A0ABEF243190D3 /* CollapsibleTreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8EC75AB155267E2827DBBFB0A9AD19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		CE718C0BB60079B5C3C2C8C9EAAA49B2 /* CollapsibleTreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA5A579FE5AB7C7CC1CFD704DA52627 /* CollapsibleTreeView-dummy.m */; };
+		D62C01E438A25A0750BE8B40DE85447D /* CollapsibleTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A705216D7E365874F1D978936C4AB5 /* CollapsibleTreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,47 +33,49 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1689D891603A7F69D78028FF70EAFB76;
+			remoteGlobalIDString = 34F24909A35A530A63FF55E76FC91192;
 			remoteInfo = CollapsibleTreeView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03DD2D6A892760AAF12F23F359D313F3 /* Pods-CollapsibleTreeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTreeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0E4BEC7D23F1FCB0A0A1751272EDBDC9 /* Pods_CollapsibleTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTreeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AA13A02D5E531F040D9E80EE60FB3AA /* CollapsibleTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CollapsibleTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CA9C1854B13149276A0ABEF243190D3 /* CollapsibleTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-umbrella.h"; sourceTree = "<group>"; };
+		0E4BEC7D23F1FCB0A0A1751272EDBDC9 /* Pods_CollapsibleTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CollapsibleTreeView_Tests.framework; path = "Pods-CollapsibleTreeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF95D1B0EFBAFA2219BE65BADB344C2 /* CollapsibleTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-prefix.pch"; sourceTree = "<group>"; };
+		22A4F92A0B6A205071CB793AE449D55B /* CollapsibleTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTreeView.xcconfig; sourceTree = "<group>"; };
 		283AC4F8CAFB7B734E7CFAC0E38DFFFC /* Pods-CollapsibleTreeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		329A0701582B990EC6AFA1CDD4B4E351 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CollapsibleTreeView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		36C6FD4B419CFB1E7142A48E4D90FBF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446D809087ED0193A19E9C84BA0C28C8 /* Pods-CollapsibleTreeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		454DDC53D8C8B00B618A21C071B4C185 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		47D3B618A6E9C51C1653A6843CCBA20D /* Pods-CollapsibleTreeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E2C7C22BBEEA6BC9895F1D7C1AE9988 /* CollapsibleTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTreeView.xcconfig; sourceTree = "<group>"; };
 		53B030258A3095C3D3C1CF90DC4431C1 /* Pods-CollapsibleTreeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollapsibleTreeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55AC1EF2438A019D5D14BE5C49E27FC8 /* TreeIndexable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeIndexable.swift; path = CollapsibleTreeView/Classes/TreeIndexable.swift; sourceTree = "<group>"; };
 		5930C5D6AA537A9ECF11F6F884E257BB /* Pods-CollapsibleTreeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTreeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		68A8FA1728BE745A496CFAE6395191B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CBFF648394D2604C9799B8A2936811A /* Pods-CollapsibleTreeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTreeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		75A25936F9F15A073A7691B42FB29064 /* CollapsibleTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-prefix.pch"; sourceTree = "<group>"; };
+		6E39B55C00D8D662DC8DACBED844AA24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89138238BDBAC984E9E0C6629F52B2D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		899A0500628FF3B0A14CEDF95A57BD94 /* Pods-CollapsibleTreeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8D29FBECDF5F740A4B261E66C38AA074 /* Pods-CollapsibleTreeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTreeView_Tests.modulemap"; sourceTree = "<group>"; };
-		935B45FF28E58686FA2068E95DA15981 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92C5AC02C7FA892A6DDF8338CE5B0D63 /* CollapsibleTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CollapsibleTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		951EBAF570924D4DFD464649132004CC /* Pods-CollapsibleTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A632B6B6D443D96ECE3451C447AD0616 /* CollapsibleTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollapsibleTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E4E3B22CA09BADCCC1DCEDE91C13A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A632B6B6D443D96ECE3451C447AD0616 /* CollapsibleTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollapsibleTreeView.framework; path = CollapsibleTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB13641FFB9BB60DBC1B566AA2F52D39 /* Pods-CollapsibleTreeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTreeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF165D64158A6D3A484C7729FD0D1839 /* Pods-CollapsibleTreeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTreeView_Example.modulemap"; sourceTree = "<group>"; };
 		AF90FEFA496384D279DABE5443216138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0758CADFF90CB7224269EEFD321BFC6 /* CollapsibleTreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTreeView-dummy.m"; sourceTree = "<group>"; };
 		B11459E190337464D3AFC4F897A05E1A /* Pods-CollapsibleTreeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B542868EB0E5341AB4D26BA374845025 /* CollapsibleTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-umbrella.h"; sourceTree = "<group>"; };
-		BA1DB8A802839BA73B2EC025184BF958 /* CollapsibleTreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollapsibleTreeView.modulemap; sourceTree = "<group>"; };
 		BADE5CFEC4726D0863307ECA1FF1D139 /* Pods-CollapsibleTreeView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Example-resources.sh"; sourceTree = "<group>"; };
+		C9A705216D7E365874F1D978936C4AB5 /* CollapsibleTreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTreeView.swift; path = CollapsibleTreeView/Classes/CollapsibleTreeView.swift; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB0F97982F3FCB8D6D5724045709238F /* CollapsableTreeViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsableTreeViewCell.swift; path = CollapsibleTreeView/Classes/CollapsableTreeViewCell.swift; sourceTree = "<group>"; };
+		DC34A9F599E6C2841AACEC66807CD652 /* CollapsibleTreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollapsibleTreeView.modulemap; sourceTree = "<group>"; };
 		DD303DD20CF310341AF49FDE78733188 /* Pods-CollapsibleTreeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollapsibleTreeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		DEA5A579FE5AB7C7CC1CFD704DA52627 /* CollapsibleTreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTreeView-dummy.m"; sourceTree = "<group>"; };
 		E7BD64BFF8B32EA0E48368A5E22EE0DF /* Pods-CollapsibleTreeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollapsibleTreeView_Example-dummy.m"; sourceTree = "<group>"; };
 		E8DD097D0D37794D83A24C59FC84149D /* Pods-CollapsibleTreeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Tests-resources.sh"; sourceTree = "<group>"; };
 		F2473D574B21C98DB9CE74E22097DBC3 /* Pods-CollapsibleTreeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollapsibleTreeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD1F32AB9D5EA1B8CCD4194C3F0DE59F /* Pods_CollapsibleTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTreeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1F32AB9D5EA1B8CCD4194C3F0DE59F /* Pods_CollapsibleTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CollapsibleTreeView_Example.framework; path = "Pods-CollapsibleTreeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +87,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F746F54EC7FFE1C94E67B60CBDBB03D /* Frameworks */ = {
+		52A2BAC2733CFBA38FFBA08867461B3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C605FB87B2693B561F5D19514513D79D /* Foundation.framework in Frameworks */,
+				8A8EC75AB155267E2827DBBFB0A9AD19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,14 +132,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		538556532A2C73AF030B562AC07C8702 /* Pod */ = {
+		4DB5F428514BB5784A0954B49438F212 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AA13A02D5E531F040D9E80EE60FB3AA /* CollapsibleTreeView.podspec */,
-				935B45FF28E58686FA2068E95DA15981 /* LICENSE */,
-				454DDC53D8C8B00B618A21C071B4C185 /* README.md */,
+				6FCF94C750E6E9A84FB128C79EA648A7 /* CollapsibleTreeView */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		63AB1575BB39A89D98264E06539213C1 /* Pods-CollapsibleTreeView_Tests */ = {
@@ -156,6 +158,19 @@
 			path = "Target Support Files/Pods-CollapsibleTreeView_Tests";
 			sourceTree = "<group>";
 		};
+		6FCF94C750E6E9A84FB128C79EA648A7 /* CollapsibleTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F97982F3FCB8D6D5724045709238F /* CollapsableTreeViewCell.swift */,
+				C9A705216D7E365874F1D978936C4AB5 /* CollapsibleTreeView.swift */,
+				55AC1EF2438A019D5D14BE5C49E27FC8 /* TreeIndexable.swift */,
+				EE11DCD9E03CFC3308B78F1F7D2EF74B /* Pod */,
+				A63E1B3F80FCEC2335E4EAF2C6201944 /* Support Files */,
+			);
+			name = CollapsibleTreeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		721E3B2A365FA32215DB18FA5095B36F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,11 +184,25 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F1CE129956A43D8F3848BB4B94C56AC6 /* Development Pods */,
+				4DB5F428514BB5784A0954B49438F212 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				ABD986B08765545B3BCE26F7DDD0479D /* Products */,
 				721E3B2A365FA32215DB18FA5095B36F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A63E1B3F80FCEC2335E4EAF2C6201944 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC34A9F599E6C2841AACEC66807CD652 /* CollapsibleTreeView.modulemap */,
+				22A4F92A0B6A205071CB793AE449D55B /* CollapsibleTreeView.xcconfig */,
+				DEA5A579FE5AB7C7CC1CFD704DA52627 /* CollapsibleTreeView-dummy.m */,
+				1CF95D1B0EFBAFA2219BE65BADB344C2 /* CollapsibleTreeView-prefix.pch */,
+				0CA9C1854B13149276A0ABEF243190D3 /* CollapsibleTreeView-umbrella.h */,
+				98E4E3B22CA09BADCCC1DCEDE91C13A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CollapsibleTreeView";
 			sourceTree = "<group>";
 		};
 		ABD986B08765545B3BCE26F7DDD0479D /* Products */ = {
@@ -194,47 +223,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C383F9BE8A26C59534F88CD6FACA8AEE /* CollapsibleTreeView */ = {
+		EE11DCD9E03CFC3308B78F1F7D2EF74B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				329A0701582B990EC6AFA1CDD4B4E351 /* ReplaceMe.swift */,
-				538556532A2C73AF030B562AC07C8702 /* Pod */,
-				D17FE5E2F26F2AC33BDA640E3F93E4CD /* Support Files */,
+				92C5AC02C7FA892A6DDF8338CE5B0D63 /* CollapsibleTreeView.podspec */,
+				6E39B55C00D8D662DC8DACBED844AA24 /* LICENSE */,
+				89138238BDBAC984E9E0C6629F52B2D3 /* README.md */,
 			);
-			name = CollapsibleTreeView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D17FE5E2F26F2AC33BDA640E3F93E4CD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA1DB8A802839BA73B2EC025184BF958 /* CollapsibleTreeView.modulemap */,
-				4E2C7C22BBEEA6BC9895F1D7C1AE9988 /* CollapsibleTreeView.xcconfig */,
-				B0758CADFF90CB7224269EEFD321BFC6 /* CollapsibleTreeView-dummy.m */,
-				75A25936F9F15A073A7691B42FB29064 /* CollapsibleTreeView-prefix.pch */,
-				B542868EB0E5341AB4D26BA374845025 /* CollapsibleTreeView-umbrella.h */,
-				68A8FA1728BE745A496CFAE6395191B0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CollapsibleTreeView";
-			sourceTree = "<group>";
-		};
-		F1CE129956A43D8F3848BB4B94C56AC6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C383F9BE8A26C59534F88CD6FACA8AEE /* CollapsibleTreeView */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5036E161B4C88A4D06D8371CF010CDCA /* Headers */ = {
+		3C77FA212ED469E15802A8AACD52AA0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED583403444A30AD5A7A94EDDFFA2C2 /* CollapsibleTreeView-umbrella.h in Headers */,
+				84FD520C91E4557DF2500B15C9E07D10 /* CollapsibleTreeView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +282,14 @@
 			productReference = FD1F32AB9D5EA1B8CCD4194C3F0DE59F /* Pods_CollapsibleTreeView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1689D891603A7F69D78028FF70EAFB76 /* CollapsibleTreeView */ = {
+		34F24909A35A530A63FF55E76FC91192 /* CollapsibleTreeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BC3725E3A2523CEC804DB81CC0143C /* Build configuration list for PBXNativeTarget "CollapsibleTreeView" */;
+			buildConfigurationList = 9E1C92D1F40DA13E3807EFD2CA892EDD /* Build configuration list for PBXNativeTarget "CollapsibleTreeView" */;
 			buildPhases = (
-				5036E161B4C88A4D06D8371CF010CDCA /* Headers */,
-				4E407AE7F267C13F31513C24840573FF /* Sources */,
-				3F746F54EC7FFE1C94E67B60CBDBB03D /* Frameworks */,
-				A679790EDC25DB3D1EE87F3CF8FC9C0C /* Resources */,
+				3C77FA212ED469E15802A8AACD52AA0B /* Headers */,
+				0300626A47A88BBCB308F7D47C3C69BA /* Sources */,
+				52A2BAC2733CFBA38FFBA08867461B3E /* Frameworks */,
+				47A94F29EAB5B6F93B30A052D68B8C06 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,11 +327,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					1689D891603A7F69D78028FF70EAFB76 = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +340,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1689D891603A7F69D78028FF70EAFB76 /* CollapsibleTreeView */,
+				34F24909A35A530A63FF55E76FC91192 /* CollapsibleTreeView */,
 				074A7CA41A6DAE79C5F38D2C5DAE5115 /* Pods-CollapsibleTreeView_Example */,
 				9ED98AB459F0D7325C7C115E251E3B89 /* Pods-CollapsibleTreeView_Tests */,
 			);
@@ -354,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A679790EDC25DB3D1EE87F3CF8FC9C0C /* Resources */ = {
+		47A94F29EAB5B6F93B30A052D68B8C06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +372,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E407AE7F267C13F31513C24840573FF /* Sources */ = {
+		0300626A47A88BBCB308F7D47C3C69BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0643F5EBF126FAC7334243D32FD175E7 /* CollapsibleTreeView-dummy.m in Sources */,
-				F4C9CF1EA17084E8526E48C790E386DA /* ReplaceMe.swift in Sources */,
+				5EED347756CB626977577A165AC5ED15 /* CollapsableTreeViewCell.swift in Sources */,
+				CE718C0BB60079B5C3C2C8C9EAAA49B2 /* CollapsibleTreeView-dummy.m in Sources */,
+				D62C01E438A25A0750BE8B40DE85447D /* CollapsibleTreeView.swift in Sources */,
+				406DEF77B45D7A185321DEBCCB4C68BB /* TreeIndexable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +405,7 @@
 		55D06368627C7D2DF1FD95B65BC1D148 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CollapsibleTreeView;
-			target = 1689D891603A7F69D78028FF70EAFB76 /* CollapsibleTreeView */;
+			target = 34F24909A35A530A63FF55E76FC91192 /* CollapsibleTreeView */;
 			targetProxy = A7687E084E64F01FA8379FFC8BB7B06B /* PBXContainerItemProxy */;
 		};
 		6AA1B0A87E60464593C463E60237D5CF /* PBXTargetDependency */ = {
@@ -535,15 +538,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		82C9374F54A8C2C2D50D90C9D4E1125D /* Debug */ = {
+		69D9934BB0270C430DD3CB20F3085801 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E2C7C22BBEEA6BC9895F1D7C1AE9988 /* CollapsibleTreeView.xcconfig */;
+			baseConfigurationReference = 22A4F92A0B6A205071CB793AE449D55B /* CollapsibleTreeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -567,10 +571,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8D393729280F97322BAB3EF8DC049CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -639,9 +644,9 @@
 			};
 			name = Release;
 		};
-		E32472A8A9B91F7868B5312557F0CE5F /* Release */ = {
+		D96CB241B2FC72C34631708565A6A0C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E2C7C22BBEEA6BC9895F1D7C1AE9988 /* CollapsibleTreeView.xcconfig */;
+			baseConfigurationReference = 22A4F92A0B6A205071CB793AE449D55B /* CollapsibleTreeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,11 +670,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		EC2B8223CDF0962DB335355D9F77C680 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -759,11 +763,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0BC3725E3A2523CEC804DB81CC0143C /* Build configuration list for PBXNativeTarget "CollapsibleTreeView" */ = {
+		9E1C92D1F40DA13E3807EFD2CA892EDD /* Build configuration list for PBXNativeTarget "CollapsibleTreeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82C9374F54A8C2C2D50D90C9D4E1125D /* Debug */,
-				E32472A8A9B91F7868B5312557F0CE5F /* Release */,
+				D96CB241B2FC72C34631708565A6A0C6 /* Debug */,
+				69D9934BB0270C430DD3CB20F3085801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
