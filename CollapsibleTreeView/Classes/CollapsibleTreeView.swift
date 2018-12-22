@@ -11,6 +11,8 @@ public class CollapsibleTreeView: UITableView {
 	weak open var treeDataSource: CollapsibleTreeViewDataSource?
 	weak open var treeDelegate: CollapsibleTreeViewDelegate?
 
+	private var expandedNodes: Set<IndexPath> = Set()
+
 	public required init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 		setup()
@@ -35,7 +37,7 @@ public class CollapsibleTreeView: UITableView {
 		var numberOfRows = self.treeDataSource?.treeView(self, numberOfSubnodesOf: indexPath) ?? 0
 		for i in 0..<numberOfRows {
 			let childIndexPath = indexPath.appending(i)
-			if self.treeDataSource?.treeView(self, isNodeExpandedAt: childIndexPath) ?? false {
+			if self.isNodeExpanded(at: childIndexPath) {
 				numberOfRows += numberOfExpandedRowsInSubtree(at: childIndexPath)
 			}
 		}
@@ -56,7 +58,7 @@ public class CollapsibleTreeView: UITableView {
 			} else {
 				offset += 1
 				var numberOfRows = 0
-				if self.treeDataSource?.treeView(self, isNodeExpandedAt: childIndexPath) ?? false {
+				if self.isNodeExpanded(at: childIndexPath) {
 					numberOfRows = numberOfExpandedRowsInSubtree(at: childIndexPath)
 				}
 				if index < offset + numberOfRows {
@@ -75,12 +77,53 @@ public class CollapsibleTreeView: UITableView {
 		for i in 0..<idx {
 			index += 1
 			let nextIndexPath = indexPath.appending(i)
-			if self.treeDataSource?.treeView(self, isNodeExpandedAt: nextIndexPath) ?? false {
+			if self.isNodeExpanded(at: nextIndexPath) {
 				index += numberOfExpandedRowsInSubtree(at: nextIndexPath)
 			}
 		}
-		index += self.index(for: treeIndexPath.dropFirst(), in: indexPath.appending(idx)) ?? 0
+		if let idx = self.index(for: treeIndexPath.dropFirst(), in: indexPath.appending(idx)) {
+			index += idx + 1
+		}
 		return index
+	}
+
+	public func isNodeExpanded(at indexPath: IndexPath) -> Bool {
+		return self.expandedNodes.contains(indexPath)
+	}
+
+	public func expandNode(at indexPath: IndexPath) {
+		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: indexPath) else { return }
+		guard !isLeaf else { return }
+		self.expandedNodes.insert(indexPath)
+
+		let start = self.index(for: indexPath)! + 1
+		let count = self.numberOfExpandedRowsInSubtree(at: indexPath)
+		let indexPaths = Array(0..<count).map { (idx) -> IndexPath in
+			IndexPath(row: start + idx, section: 0)
+		}
+
+		self.beginUpdates()
+		self.insertRows(at: indexPaths, with: .automatic)
+		self.endUpdates()
+	}
+
+	public func collapseNode(at indexPath: IndexPath) {
+		self.expandedNodes.remove(indexPath)
+
+		let start = self.index(for: indexPath)! + 1
+		let count = self.numberOfExpandedRowsInSubtree(at: indexPath)
+		let indexPaths = Array(0..<count).map { (idx) -> IndexPath in
+			IndexPath(row: start + idx, section: 0)
+		}
+
+		self.beginUpdates()
+		self.deleteRows(at: indexPaths, with: .automatic)
+		self.endUpdates()
+	}
+
+	public func treeCell(at indexPath: IndexPath) -> CollapsibleTreeViewCell? {
+		let index = self.index(for: indexPath)!
+		return self.cellForRow(at: IndexPath(row: index, section: 0)) as? CollapsibleTreeViewCell
 	}
 }
 
@@ -95,13 +138,33 @@ extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
 		cell.indentationLevel = treeIndexPath.count - 1
 		return cell
 	}
+
+	public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		tableView.deselectRow(at: indexPath, animated: true)
+		let treeIndexPath = self.treeIndexPath(for: indexPath.item)!
+		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return }
+		if isLeaf  {
+			self.treeDelegate?.treeView(self, didSelectLeafAt: treeIndexPath)
+		} else {
+			if self.isNodeExpanded(at: treeIndexPath) {
+				self.collapseNode(at: treeIndexPath)
+				self.treeDelegate?.treeView(self, didCollapseNodeAt: treeIndexPath)
+			} else {
+				self.expandNode(at: treeIndexPath)
+				self.treeDelegate?.treeView(self, didExpandNodeAt: treeIndexPath)
+			}
+		}
+	}
 }
 
 public protocol CollapsibleTreeViewDataSource: class {
 	func treeView(_ treeView: CollapsibleTreeView, numberOfSubnodesOf indexPath: IndexPath) -> Int
-	func treeView(_ treeView: CollapsibleTreeView, isNodeExpandedAt indexPath: IndexPath) -> Bool
 	func treeView(_ treeView: CollapsibleTreeView, cellForNodeAt indexPath: IndexPath) -> CollapsibleTreeViewCell
+	func treeView(_ treeView: CollapsibleTreeView, isLeafAt indexPath: IndexPath) -> Bool
 }
 
 public protocol CollapsibleTreeViewDelegate: class {
+	func treeView(_ treeView: CollapsibleTreeView, didExpandNodeAt indexPath: IndexPath)
+	func treeView(_ treeView: CollapsibleTreeView, didCollapseNodeAt indexPath: IndexPath)
+	func treeView(_ treeView: CollapsibleTreeView, didSelectLeafAt indexPath: IndexPath)
 }
