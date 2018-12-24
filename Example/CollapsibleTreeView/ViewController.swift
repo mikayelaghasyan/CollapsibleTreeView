@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 		treeView.treeDataSource = self
 		treeView.treeDelegate = self
+
+		treeView.collapseRowAnimation = .fade
+		treeView.expandRowAnimation = .fade
+
 		loadData()
 		if let categories = self.categories {
 			for i in 0..<categories.count {

@@ -11,6 +11,9 @@ public class CollapsibleTreeView: UITableView {
 	weak open var treeDataSource: CollapsibleTreeViewDataSource?
 	weak open var treeDelegate: CollapsibleTreeViewDelegate?
 
+	public var collapseRowAnimation: UITableView.RowAnimation = .automatic
+	public var expandRowAnimation: UITableView.RowAnimation = .automatic
+
 	private var expandedNodes: Set<IndexPath> = Set()
 
 	public required init?(coder aDecoder: NSCoder) {
@@ -103,7 +106,7 @@ public class CollapsibleTreeView: UITableView {
 		}
 
 		self.beginUpdates()
-		self.insertRows(at: indexPaths, with: .automatic)
+		self.insertRows(at: indexPaths, with: self.expandRowAnimation)
 		self.endUpdates()
 	}
 
@@ -117,7 +120,7 @@ public class CollapsibleTreeView: UITableView {
 		}
 
 		self.beginUpdates()
-		self.deleteRows(at: indexPaths, with: .automatic)
+		self.deleteRows(at: indexPaths, with: self.collapseRowAnimation)
 		self.endUpdates()
 	}
 
