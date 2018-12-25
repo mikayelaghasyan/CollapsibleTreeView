@@ -147,13 +147,12 @@ extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
 		return cell
 	}
 
-	public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+	public func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
 		let treeIndexPath = self.treeIndexPath(for: indexPath.item)!
-		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return }
+		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return nil }
 		if isLeaf  {
-			self.treeDelegate?.treeView(self, didSelectLeafAt: treeIndexPath)
+			return indexPath
 		} else {
-			tableView.deselectRow(at: indexPath, animated: true)
 			if self.isNodeExpanded(at: treeIndexPath) {
 				self.collapseNode(at: treeIndexPath)
 				self.treeDelegate?.treeView(self, didCollapseNodeAt: treeIndexPath)
@@ -161,6 +160,15 @@ extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
 				self.expandNode(at: treeIndexPath)
 				self.treeDelegate?.treeView(self, didExpandNodeAt: treeIndexPath)
 			}
+			return nil
+		}
+	}
+
+	public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		let treeIndexPath = self.treeIndexPath(for: indexPath.item)!
+		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return }
+		if isLeaf  {
+			self.treeDelegate?.treeView(self, didSelectLeafAt: treeIndexPath)
 		}
 	}
 
