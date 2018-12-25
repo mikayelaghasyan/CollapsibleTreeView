@@ -143,12 +143,12 @@ extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
 	}
 
 	public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		tableView.deselectRow(at: indexPath, animated: true)
 		let treeIndexPath = self.treeIndexPath(for: indexPath.item)!
 		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return }
 		if isLeaf  {
 			self.treeDelegate?.treeView(self, didSelectLeafAt: treeIndexPath)
 		} else {
+			tableView.deselectRow(at: indexPath, animated: true)
 			if self.isNodeExpanded(at: treeIndexPath) {
 				self.collapseNode(at: treeIndexPath)
 				self.treeDelegate?.treeView(self, didCollapseNodeAt: treeIndexPath)
@@ -156,6 +156,14 @@ extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
 				self.expandNode(at: treeIndexPath)
 				self.treeDelegate?.treeView(self, didExpandNodeAt: treeIndexPath)
 			}
+		}
+	}
+
+	public func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+		let treeIndexPath = self.treeIndexPath(for: indexPath.item)!
+		guard let isLeaf = self.treeDataSource?.treeView(self, isLeafAt: treeIndexPath) else { return }
+		if isLeaf {
+			self.treeDelegate?.treeView(self, didDeselectLeafAt: treeIndexPath)
 		}
 	}
 }
@@ -170,4 +178,5 @@ public protocol CollapsibleTreeViewDelegate: class {
 	func treeView(_ treeView: CollapsibleTreeView, didExpandNodeAt indexPath: IndexPath)
 	func treeView(_ treeView: CollapsibleTreeView, didCollapseNodeAt indexPath: IndexPath)
 	func treeView(_ treeView: CollapsibleTreeView, didSelectLeafAt indexPath: IndexPath)
+	func treeView(_ treeView: CollapsibleTreeView, didDeselectLeafAt indexPath: IndexPath)
 }

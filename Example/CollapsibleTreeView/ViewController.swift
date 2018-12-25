@@ -94,9 +94,13 @@ extension ViewController: CollapsibleTreeViewDataSource, CollapsibleTreeViewDele
 
 	func treeView(_ treeView: CollapsibleTreeView, didSelectLeafAt indexPath: IndexPath) {
 		if let category = self.categories?.node(at: indexPath) as? Category {
-			let alert = UIAlertController(title: "Category Selected", message: category.name, preferredStyle: .alert)
-			alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
-			self.present(alert, animated: true, completion: nil)
+			print("Category Selected: \(category.name)")
+		}
+	}
+
+	func treeView(_ treeView: CollapsibleTreeView, didDeselectLeafAt indexPath: IndexPath) {
+		if let category = self.categories?.node(at: indexPath) as? Category {
+			print("Category Deselected: \(category.name)")
 		}
 	}
 }
