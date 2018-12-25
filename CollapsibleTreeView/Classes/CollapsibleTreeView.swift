@@ -128,6 +128,11 @@ public class CollapsibleTreeView: UITableView {
 		let index = self.index(for: indexPath)!
 		return self.cellForRow(at: IndexPath(row: index, section: 0)) as? CollapsibleTreeViewCell
 	}
+
+	public func reset() {
+		self.expandedNodes.removeAll()
+		self.reloadData()
+	}
 }
 
 extension CollapsibleTreeView: UITableViewDataSource, UITableViewDelegate {
