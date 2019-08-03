@@ -32,7 +32,7 @@ Collapsible tree view allows display of hierarchic data.
 
   s.source_files = 'CollapsibleTreeView/Classes/**/*'
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'CollapsibleTreeView' => ['CollapsibleTreeView/Assets/*.png']

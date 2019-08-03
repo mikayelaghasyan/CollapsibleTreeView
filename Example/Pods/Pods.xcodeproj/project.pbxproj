@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		03DD2D6A892760AAF12F23F359D313F3 /* Pods-CollapsibleTreeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTreeView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0CA9C1854B13149276A0ABEF243190D3 /* CollapsibleTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-umbrella.h"; sourceTree = "<group>"; };
-		0E4BEC7D23F1FCB0A0A1751272EDBDC9 /* Pods_CollapsibleTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CollapsibleTreeView_Tests.framework; path = "Pods-CollapsibleTreeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4BEC7D23F1FCB0A0A1751272EDBDC9 /* Pods_CollapsibleTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTreeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF95D1B0EFBAFA2219BE65BADB344C2 /* CollapsibleTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTreeView-prefix.pch"; sourceTree = "<group>"; };
 		22A4F92A0B6A205071CB793AE449D55B /* CollapsibleTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTreeView.xcconfig; sourceTree = "<group>"; };
 		283AC4F8CAFB7B734E7CFAC0E38DFFFC /* Pods-CollapsibleTreeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,15 +52,15 @@
 		55AC1EF2438A019D5D14BE5C49E27FC8 /* TreeIndexable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeIndexable.swift; path = CollapsibleTreeView/Classes/TreeIndexable.swift; sourceTree = "<group>"; };
 		5930C5D6AA537A9ECF11F6F884E257BB /* Pods-CollapsibleTreeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTreeView_Example-umbrella.h"; sourceTree = "<group>"; };
 		6CBFF648394D2604C9799B8A2936811A /* Pods-CollapsibleTreeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTreeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E39B55C00D8D662DC8DACBED844AA24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		89138238BDBAC984E9E0C6629F52B2D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E39B55C00D8D662DC8DACBED844AA24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		89138238BDBAC984E9E0C6629F52B2D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		899A0500628FF3B0A14CEDF95A57BD94 /* Pods-CollapsibleTreeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8D29FBECDF5F740A4B261E66C38AA074 /* Pods-CollapsibleTreeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTreeView_Tests.modulemap"; sourceTree = "<group>"; };
-		92C5AC02C7FA892A6DDF8338CE5B0D63 /* CollapsibleTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CollapsibleTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92C5AC02C7FA892A6DDF8338CE5B0D63 /* CollapsibleTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CollapsibleTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		951EBAF570924D4DFD464649132004CC /* Pods-CollapsibleTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		98E4E3B22CA09BADCCC1DCEDE91C13A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A632B6B6D443D96ECE3451C447AD0616 /* CollapsibleTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollapsibleTreeView.framework; path = CollapsibleTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A632B6B6D443D96ECE3451C447AD0616 /* CollapsibleTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollapsibleTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB13641FFB9BB60DBC1B566AA2F52D39 /* Pods-CollapsibleTreeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTreeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF165D64158A6D3A484C7729FD0D1839 /* Pods-CollapsibleTreeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTreeView_Example.modulemap"; sourceTree = "<group>"; };
 		AF90FEFA496384D279DABE5443216138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		E7BD64BFF8B32EA0E48368A5E22EE0DF /* Pods-CollapsibleTreeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollapsibleTreeView_Example-dummy.m"; sourceTree = "<group>"; };
 		E8DD097D0D37794D83A24C59FC84149D /* Pods-CollapsibleTreeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTreeView_Tests-resources.sh"; sourceTree = "<group>"; };
 		F2473D574B21C98DB9CE74E22097DBC3 /* Pods-CollapsibleTreeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollapsibleTreeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD1F32AB9D5EA1B8CCD4194C3F0DE59F /* Pods_CollapsibleTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CollapsibleTreeView_Example.framework; path = "Pods-CollapsibleTreeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1F32AB9D5EA1B8CCD4194C3F0DE59F /* Pods_CollapsibleTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTreeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,12 +327,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					34F24909A35A530A63FF55E76FC91192 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -475,7 +481,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,8 +544,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -701,7 +706,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
